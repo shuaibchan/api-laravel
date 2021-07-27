@@ -124,6 +124,11 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        return Product::destroy($id);
+        if (Auth::user()->hasRole(['SuperAdmin', 'Admin']))
+        {
+            $data = Product::destroy($id);
+            return response(['Message'=>'Product Successfully Deleted'], 200);
+        }
+        return response(['Message'=>'No Permission'], 403);
     }
 }

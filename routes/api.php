@@ -28,7 +28,7 @@ Route::middleware('auth:api')->get('/products', [ProductController::class , 'ind
 Route::middleware('auth:api')->get('/products/{id}', [ProductController::class , 'show']);
 Route::middleware('auth:api')->any('/products/store', [ProductController::class , 'store']);
 Route::middleware('auth:api')->post('/products/update/{id}', [ProductController::class , 'update']);
-Route::middleware('auth:api')->get('/products/delete/{id}', [ProductController::class , 'destroy']);
+Route::middleware('auth:api')->post('/products/delete/{id}', [ProductController::class , 'destroy']);
 
 
 
