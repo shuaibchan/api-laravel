@@ -13,7 +13,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 
 
-![alt text](https://imgur.com/lNtkFIu)
+![Register User](https://i.imgur.com/lNtkFIu.png)
 
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
