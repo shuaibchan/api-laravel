@@ -74,7 +74,7 @@ Response :
 ```
 
 ![Register User](https://i.imgur.com/5vMhct0.png)
-	3. Product List
+3. Product List
 Endpoint : https://localhost/api/products
 Method : GET
 
@@ -157,7 +157,7 @@ Response :
 
 ![Register User](https://i.imgur.com/luVi8zF.png)
 
-5. Product Delete
+6. Product Delete
 Endpoint : https://localhost/api/products/delete/{id}
 Method : POST
 Normal User with **User** role.
